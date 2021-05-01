@@ -1,0 +1,75 @@
+.boxss{
+height: 40vh;
+width: 40vw;
+margin: auto;
+margin-top: 20vh;
+}
+.boxss div{
+    justify-content: center;
+}
+.example-form {
+    min-width: 150px;
+    max-width: 500px;
+    width: 100%;
+  }  
+  .example-full-width {
+    width: 100%;
+  }
+  .example-button-row button{
+      margin-left: 15vw;
+      margin-top: 5vh;
+}
+div input{
+  height: 5vh;
+  font-size: large;
+
+}
+div .lablel{
+  margin-left: 40%;
+  font-size: large;
+}
+div :placeholder-shown{
+  margin-left: 30%;
+  font-size: medium;
+  justify-content: center;
+}
+/* .loginbox{ 
+  height: 70vh;
+  width: 100%;
+} */
+  
+@media only screen and (max-width:500px) {
+
+  .boxss{
+    height: 50vh;
+    width: 100vw;
+    margin: auto;
+    margin-top: 20vh;
+  }
+  .boxss div{
+    justify-content: center;
+}
+.example-button-row button{
+  margin-left: 40vw;
+  margin-top: 5vh;
+}
+div input{
+  height: 5vh;
+  font-size: medium;
+  color: black;
+
+}
+div .lablel{
+  margin-left: 0%;
+  font-size: medium;
+  color: blue;
+
+
+}
+div :placeholder-shown{
+  margin-left: 30%;
+  font-size: medium;
+  justify-content: center;
+}
+
+} 

@@ -1,0 +1,35 @@
+.home{
+    position: absolute;
+    height: 93vh;
+    width: 100%;
+    background-image: url(https://images.unsplash.com/photo-1431411207774-da3c7311b5e8?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fG5hdHVyYWx8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.buttons{
+    position: relative;
+    height: 40vh;
+    width: 50vw;
+    border: 2px solid red;
+    margin-top: 20vh;
+    margin-left: 50vw;
+}
+/* .regbtn {
+    height: 15vh;
+    width: 10vw;
+    border: 2px solid red;
+    margin-left: 50%;
+
+
+}
+.logbtn {
+    height: 15vh;
+    width: 10vw;
+    border: 2px solid red;
+    margin-top: 10%;
+    margin-left: 50%;
+    
+
+
+
+} */

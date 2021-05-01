@@ -1,0 +1,78 @@
+ <div class="full">
+    <section class="box ">
+        <form action="" [formGroup]="registerpage" (submit)="regsub()" class="example-form " >
+           <div class="row">
+           <section class="col-12 col-sm-6">
+            <mat-form-field class="example-full-width">
+                <div >
+                    <mat-label  class="label">FirstName</mat-label>
+                    <input matInput type="text" placeholder="Enter First Name"  formControlName="FirstName">
+                </div>
+            </mat-form-field>
+           </section>
+             <section class="col-12 col-sm-6">
+                <mat-form-field class="example-full-width">
+                    <div>
+                        <mat-label class="label">LastName</mat-label>
+                        <input matInput type="text" placeholder="Enter Last Name"  formControlName="LastName">
+                    </div>
+                </mat-form-field>
+             </section>
+               <section class="col-12 col-sm-6">
+                <mat-form-field class="example-full-width">
+                    <div>
+                        <mat-label class="label">Email</mat-label>
+                        <input matInput type="email" email placeholder="Enter Email"  formControlName="Email">
+                    </div>
+                </mat-form-field>
+               </section>
+               <section class="col-12 col-sm-6" > 
+                <mat-form-field class="example-full-width">
+                    <div>
+                        <mat-label class="label">PhoneNumber</mat-label>
+                        <input matInput type="tel" placeholder="Enter PhoneNumber"  formControlName="PhoneNumber">
+                    </div>
+                </mat-form-field>
+            </section>
+             <section class="col-12 col-sm-6">
+                <mat-form-field class="example-full-width">
+                    <div>
+                        <mat-label class="label">DateOfBirth</mat-label>
+                    <input matInput placeholder="enter DOB" type="date" formControlName='dob'>
+                    </div>
+                  </mat-form-field>
+              </section> 
+              <section class="col-12 col-sm-6">
+               <div>
+                <mat-label class="label">Gender:</mat-label>
+                <mat-radio-group class="d-flex justify-content-center" aria-label="Select an option">
+                <mat-radio-button  formControlName="gender" value="1">Male </mat-radio-button>
+                <mat-radio-button  formControlName="gender" value="2">Female </mat-radio-button>
+               </mat-radio-group>
+               </div>
+              </section>  
+               
+                <section class="col-12 col-sm-6">
+                    
+                        <mat-form-field class="example-full-width">
+                            <div>
+                                <mat-label class="label">NewPassword</mat-label>
+                                <input matInput type="password" placeholder="Enter NewPassword"  formControlName="NewPassword">
+                            </div>
+                        </mat-form-field>                   
+                </section>
+               <section class="col-12 col-sm-6">
+                <mat-form-field class="example-full-width">
+                    <div>
+                        <mat-label class="label">ConformPassword</mat-label>
+                        <input matInput type="password" placeholder="Enter Conformassword"  formControlName="ConformPassword">
+                    </div>
+                </mat-form-field> 
+               </section>                   
+           </div>
+            <div class="example-button-row  m-auto">
+                <button [disabled]="registerpage.invalid"  mat-raised-button color="primary">Register</button>
+            </div>
+        </form>
+    </section>
+</div>
