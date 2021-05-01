@@ -39,7 +39,6 @@ div input{
     .box{
       height: 130vh;
       width: 70vw;
-      border: 2px solid red;
       margin-top: 10vh;
       box-sizing: content-box;
   }
